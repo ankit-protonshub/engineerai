@@ -13,7 +13,7 @@ export default class Home extends Component {
     callAPI () {
         //console.log(this.state.TextInput);
 
-        let url = 'https://restcountries.eu/rest/v2/name/india';
+        let url = 'https://restcountries.eu/rest/v2/name/' + this.state.TextInput;
         fetch(url, {
             method: 'GET'
         })
