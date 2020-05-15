@@ -1,0 +1,6 @@
+module Pods_DemoEngineerAI_DemoEngineerAITests {
+  umbrella header "Pods-DemoEngineerAI-DemoEngineerAITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
