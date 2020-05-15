@@ -10,12 +10,11 @@ import React, { Component } from 'react';
 
 
 import Nvigation from './Nvigation';
-import Home from './Home';
 
 export default class App extends Component {
   render() {
     return (
-      <Home/>
+      <Nvigation/>
     )
   }
 }
